@@ -1,6 +1,6 @@
 # this file is used for one line import
 import pygame
-from math import sqrt
+from math import sqrt , cos
 from time import sleep as delay
 from random import randint
 from pynput.keyboard import Controller,Key
@@ -9,5 +9,3 @@ from playsound import playsound
 from subprocess import Popen,run
 from pygame.locals import *
 from pygame import mixer
-
-
